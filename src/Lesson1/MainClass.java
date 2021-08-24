@@ -7,6 +7,7 @@ public class MainClass {
         checkSumSignal();
         printColor(1005);
         compareNumbers(1, 5);
+        testDevelop();
     }
 
     public static void printThreeWords() {
@@ -43,5 +44,9 @@ public class MainClass {
             System.out.println("a < b");
 
         }
+    }
+
+    public static void testDevelop() {
+        System.out.println("загрузка на GitHub");
     }
 }
